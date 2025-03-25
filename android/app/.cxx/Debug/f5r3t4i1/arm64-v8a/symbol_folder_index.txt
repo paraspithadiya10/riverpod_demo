@@ -1,0 +1,1 @@
+/Users/dajirajinfotech/Documents/FlutterProject/riverpod_demo/build/app/intermediates/cxx/Debug/f5r3t4i1/obj/arm64-v8a

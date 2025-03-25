@@ -10,8 +10,6 @@ class CartScreen extends ConsumerStatefulWidget {
 }
 
 class _CartScreenState extends ConsumerState<CartScreen> {
-  bool showCoupon = true;
-
   @override
   Widget build(BuildContext context) {
     final allProducts = ref.watch(cartNotifierProvider);
@@ -21,7 +19,6 @@ class _CartScreenState extends ConsumerState<CartScreen> {
       appBar: AppBar(
         title: const Text('Your Cart'),
         centerTitle: true,
-        // actions: [],
       ),
       body: Container(
         padding: const EdgeInsets.all(30),
